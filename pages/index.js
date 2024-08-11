@@ -12,7 +12,7 @@ export default function Home() {
         <title>Nextflix</title>
         <meta name="description" content="Discover videos" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/static/play-arrow-white.svg" />
       </Head>
 
       <main className={`${styles.main} ${roboto.className}`}>
