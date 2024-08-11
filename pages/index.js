@@ -3,7 +3,7 @@ import { Roboto_Slab } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Banner from "@/components/banner/banner";
 
-const roboto = Roboto_Slab();
+const roboto = Roboto_Slab({ weight: "700" });
 
 export default function Home() {
   return (
